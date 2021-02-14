@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+*:focus {
+    /*outline: -webkit-focus-ring-color auto 0px!important;*/
+}
+
 body {
     font-family: 'TT Norms Pro';
     font-size: 16px;
@@ -27,8 +31,47 @@ nav {
     padding: 0 22px;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #00AC4E;
+}
+
 .dropdown-toggle::after {
     display: none;
 }
 
-.menu__right {}
+.menu__right {
+    align-items: center;
+}
+
+.menu__contact {
+    margin-right: 35px;
+}
+
+.menu__contact a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu__contact img {
+    margin-right: 5px;
+}
+
+.menu__user {
+    margin-right: 35px;
+}
+
+.menu__user a {
+    margin-left: 30px;
+}
+
+.menu__profile {
+    margin-left: 30px;
+    background: none;
+    border: 0;
+    padding: 0;
+}
+
+.menu__shop {}
