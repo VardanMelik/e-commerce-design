@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'TT Norms Pro';
     src: url('TT Norms Bold.otf');
-    src: local('TT Norms Pro Bold'), local('TT Norms Pro Bold'), url('TT Norms Pro Bold.otg?#iefix') format('embedded-opentype'), url('TT Norms Pro Bold.woff') format('woff'), url('TT Norms Pro Bold.ttf') format('truetype');
+    src: local('TT Norms Pro Bold'), local('TT Norms Pro Bold'), url('TT Norms Pro Bold.otf?#iefix') format('embedded-opentype'), url('TT Norms Pro Bold.otf') format('otf'), url('TT Norms Pro Bold.otf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
