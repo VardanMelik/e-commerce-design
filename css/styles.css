@@ -237,19 +237,100 @@ swiper-button-prev::after {
 
 .home-products .products-wrapper .product {
     width: 205.5px;
+    margin-bottom: 56px;
 }
 
-.home-products .products-wrapper .product img {
-    width: 100%;
-    height: 100%;
-    /*height: 125.83px;*/
+.products-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.home-products {
+    padding-top: 25px;
+    padding-right: 2px;
+}
+
+.product {
+    margin-top: 34px;
+}
+
+.product .img {
     background-image: url(../assets/default-cart-img.svg);
     background-color: #E6E6E6;
     background-position: center;
     background-repeat: no-repeat;
-    overflow: hidden;
     border-radius: 4.52641px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 125.83px;
+    overflow: hidden;
+}
+
+.product img {
+    width: 100%;
+    height: 100%;
+}
+
+.product .title {
+    font-weight: 500;
+    font-size: 14.4845px;
+    line-height: 22px;
+    color: #000000;
+    margin: 9px 0;
+}
+
+.product .description {
+    font-weight: normal;
+    font-size: 12.674px;
+    line-height: 19px;
+    /* or 150% */
+    /* Black */
+    color: #000000;
+}
+
+.rating span {
+    width: 12.07px;
+    height: 12.07px;
+    display: inline-block;
+    background: url(../assets/star-green.svg)
+}
+
+.rating .gray {
+    width: 12.07px;
+    height: 12.07px;
+    display: inline-block;
+    background: url(../assets/star-gray.svg)
+}
+
+.price b {
+    font-weight: 500;
+    font-size: 18.1056px;
+    line-height: 23px;
+    /* identical to box height, or 125% */
+    /* Black */
+    color: #000000;
+}
+
+.price span {
+    font-weight: normal;
+    font-size: 12.674px;
+    line-height: 23px;
+    margin-left: 18.11px;
+    /* identical to box height, or 179% */
+    /* Gray 3 */
+    color: #828282;
+}
+
+.product .to-cart {
+    display: inline-block;
+    width: 140.32px;
+    height: 38.02px;
+    left: 223px;
+    top: 846.44px;
+    /* #00AC4E */
+    background: #00AC4E;
+    border-radius: 4.52641px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
 }
